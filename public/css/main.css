@@ -101,6 +101,7 @@ a{
 
 .feed{
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
@@ -111,6 +112,7 @@ a{
 	display: flex;
 	width:100%;
 	flex-direction: column;
+	margin-bottom: 50px;
 		
 }
 .feed__header{
