@@ -27,13 +27,19 @@ a{
 }
 
 .header{
+	
+	
 	display: flex;
 	flex-direction: column;
 	justify-content:center;
 	align-content: center;
 	align-items:center;
 	width:100%;
-	margin-top: 15px;
+	background: #eeeeee;
+	position: fixed;
+	top: 0;
+	flex-basis: 300px;
+	max-width: 620px;
 
 }
 
@@ -75,6 +81,8 @@ a{
 	display: flex;
 	padding: 5px;
 	margin: 15px 0px 15px 0px;
+	padding-top: 70px;
+	
 }
 
 .story__item{
